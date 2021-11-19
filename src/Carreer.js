@@ -8,7 +8,7 @@ function Carreer() {
           <td>
             <b>
               Systems Dveloper - SMART Zambia Institute
-              <i>(5th March - Present)</i>
+              <i>(5th March 2021 - Present)</i>
             </b>
           </td>
         </tr>
@@ -26,7 +26,7 @@ function Carreer() {
           <td>
             <b>
               Topstar Network Operations Technician
-              <i>(5th January - 3rd March 2021)</i>
+              <i>(5th January 2021 - 3rd March 2021)</i>
             </b>
           </td>
         </tr>
