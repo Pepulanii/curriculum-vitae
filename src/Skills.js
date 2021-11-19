@@ -16,7 +16,7 @@ function Skills() {
         </tr>
         <tr>
           <td id="linux">Linux</td>
-          <td id="git">Software version control system (git)</td>
+          <td id="git">GIT (software version control system)</td>
         </tr>
       </table>
     </div>
