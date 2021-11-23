@@ -22,10 +22,10 @@ const App = () => {
       <>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/education" component={Education} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route eact path="/skills" component={Skills} />
+          <Route exact path="/experience" component={Experience} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
       </>
     </Router>
