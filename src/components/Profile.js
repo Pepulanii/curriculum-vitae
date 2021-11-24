@@ -12,20 +12,6 @@ function Profile() {
   return (
     <div>
       <div>
-        {/* <div className="card">
-          <div className="card-image">
-            <img className="activator" src={profpic} alt="my profile" />
-            <Link className="btn-floating halfway-fab waves-effect wave-light red">
-              <i className="material-icons activator" />
-              more_vert
-            </Link>
-          </div>
-          <div className="card-content">
-            <span className="card-title activator grey-text text-darken-4">
-              Pepulani Ngwira
-            </span>
-            <p>Systems Developer</p>
-          </div> */}
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light">
             <img className="activator" src={profpic} />
@@ -41,12 +27,12 @@ function Profile() {
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">
-              Social Media <i class="fas fa-times" />
+              Social Media <i className="fas fa-times" />
             </span>
             <p className="flex-container">
-              <i class="fab fa-facebook-f" />
-              <i class="fab fa-twitter" />
-              <i class="fab fa-linkedin-in" />
+              <i className="fab fa-facebook-f" />
+              <i className="fab fa-twitter" />
+              <i className="fab fa-linkedin-in" />
             </p>
           </div>
         </div>
