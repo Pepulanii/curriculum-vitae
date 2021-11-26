@@ -40,7 +40,7 @@ function Experience() {
                 <strong>TOPSTAR NETWORK OPERATIONS TECHNICIAN</strong>
               </h6>
               <p>
-                Worked as Netowork Operations Center (NOC) Officer at Topstar
+                Worked as Network Operations Center (NOC) Officer at Topstar
                 Lusaka main branch stationed at Mass media. Worked with open
                 source software, Zabbix to monitor the conditions of Topstar
                 transmitters and sites across the country as well as maintaining

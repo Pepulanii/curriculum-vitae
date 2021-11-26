@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SidebarData from './Sidenav';
+import SidebarData from './SidebarData';
 // import { HashLink as Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,6 +30,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import TemporaryDrawer from './Sidebar';
 
 const drawerWidth = 240;
 
@@ -95,64 +96,28 @@ function Navbar() {
       <nav className="light-blue darken-4">
         <div className="container">
           <div className="nav-wrapper">
-            {/* Material-ui */}
-            <Box sx={{ display: 'flex' }}>
-              <CssBaseline />
-              <AppBar position="fixed" open={open}>
-                <Toolbar>
-                  <IconButton
-                    color="inherit"
-                    aria-label="open drawer"
-                    onClick={handleDrawerOpen}
-                    edge="start"
-                    sx={{ mr: 2, ...(open && { display: 'none' }) }}
-                  >
-                    <MenuIcon />
-                  </IconButton>
-                  <Typography variant="h6" noWrap component="div">
-                    Curriculum Vitae
-                  </Typography>
-                </Toolbar>
-              </AppBar>
-              <Drawer
-                sx={{
-                  width: drawerWidth,
-                  flexShrink: 0,
-                  '& .MuiDrawer-paper': {
-                    width: drawerWidth,
-                    boxSizing: 'border-box',
-                  },
-                }}
-                variant="persistent"
-                anchor="left"
-                open={open}
-              >
-                <DrawerHeader>
-                  <IconButton onClick={handleDrawerClose}>
-                    {theme.direction === 'ltr' ? (
-                      <ChevronLeftIcon />
-                    ) : (
-                      <ChevronRightIcon />
-                    )}
-                  </IconButton>
-                </DrawerHeader>
-                <Divider />
-                <List>
-                  {SidebarData.map((item, index) => (
-                    <ListItem
-                      button
-                      key={index}
-                      component={Link}
-                      to={item.path}
-                    >
-                      <ListItemIcon>{item.icon}</ListItemIcon>
-                      <ListItemText primary={item.title} />
-                    </ListItem>
-                  ))}
-                </List>
-                <Divider />
-              </Drawer>
-            </Box>
+            {/* <Toolbar> */}
+
+            <ul>
+              <li className="left hide-on-large-only">
+                <TemporaryDrawer />
+              </li>
+              <li>
+                <Link to="/" className="brand-logo">
+                  CV
+                </Link>
+              </li>
+            </ul>
+
+            <ul className="right hide-on-med-and-down">
+              {SidebarData.map((item, index) => (
+                <li key={index}>
+                  <Link to={item.path}>
+                    {item.icon} {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </nav>

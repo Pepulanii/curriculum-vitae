@@ -20,9 +20,11 @@ function Profile() {
             <span className="card-title activator grey-text text-darken-4">
               Pepulani Ngwira
             </span>
-            <p>Systems Developer</p>
             <p>
-              <i>(click name to view social)</i>
+              <strong>Systems Developer (SMART Zambia Institute)</strong>
+            </p>
+            <p style={{ color: 'blue' }}>
+              <i>(click image to view social)</i>
             </p>
           </div>
           <div className="card-reveal">
