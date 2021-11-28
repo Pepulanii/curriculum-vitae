@@ -13,7 +13,7 @@ function Profile() {
     <div>
       <div>
         <div className="card">
-          <div className="card-image waves-effect waves-block waves-light">
+          <div className="card-image">
             <img className="activator" src={profpic} />
           </div>
           <div className="card-content">
