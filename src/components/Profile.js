@@ -32,9 +32,15 @@ function Profile() {
               Social Media <i className="fas fa-times" />
             </span>
             <p className="flex-container">
-              <i className="fab fa-facebook-f" />
-              <i className="fab fa-twitter" />
-              <i className="fab fa-linkedin-in" />
+              <a href="https://web.facebook.com/pepulani.ngwira?_rdc=1&_rdr">
+                <i className="fab fa-facebook-f" />
+              </a>
+              <a href="https://www.twitter.com/Pepulani_">
+                <i className="fab fa-twitter" />
+              </a>
+              <a href="https://zm.linkedin.com/in/pepulani-ngwira-b4ab52a6">
+                <i className="fab fa-linkedin-in" />
+              </a>
             </p>
           </div>
         </div>
