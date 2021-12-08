@@ -16,7 +16,7 @@ function Experience() {
           <div className="col s12 m8 l8 xl8">
             <blockquote className="no-pad">
               <h6 className="no-pad mt-bottom">
-                <strong>SYSTEMS DEVELOPER</strong>
+                <strong>SMART Zambia Institute (Systems Developer)</strong>
               </h6>
               <p>
                 Currently employed as a systems developer at SMART Zambia
@@ -37,7 +37,7 @@ function Experience() {
           <div className="col s12 m8 l8 xl8">
             <blockquote className="no-pad">
               <h6 className="no-pad mt-bottom">
-                <strong>TOPSTAR NETWORK OPERATIONS TECHNICIAN</strong>
+                <strong>TOPSTAR (Network Operations Center Technician)</strong>
               </h6>
               <p>
                 Worked as Network Operations Center (NOC) Officer at Topstar
@@ -57,7 +57,7 @@ function Experience() {
             <div className="col s12 m8 l8 xl8">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>ZESCO IT Support</strong>
+                  <strong>ZESCO (IT Support)</strong>
                 </h6>
                 <p>
                   Worked as IT Support (Internship) for ZESCO head office. Used
@@ -82,7 +82,7 @@ function Experience() {
             <div className="col s12 m8 l8 xl8">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>YMCA IT TECHNICAL SUPPORT</strong>
+                  <strong>YMCA (IT Technical Support)</strong>
                 </h6>
                 <p>
                   Configured computer systems, fixing hardware and software.
