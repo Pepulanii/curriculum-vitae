@@ -51,6 +51,25 @@ function Experience() {
           <div className="row">
             <div className="col s12 m4 l4 xl4">
               <p className="teal year_exp white-text">
+                May <strong>2014</strong> - June <strong>2014</strong>
+              </p>
+            </div>
+            <div className="col s12 m8 l8 xl8">
+              <blockquote className="no-pad">
+                <h6 className="no-pad mt-bottom">
+                  <strong>YMCA (IT Technical Support)</strong>
+                </h6>
+                <p>
+                  Configured computer systems, fixing hardware and software.
+                  Operating system installation. Performed routine hardware and
+                  software maintenance checks.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col s12 m4 l4 xl4">
+              <p className="teal year_exp white-text">
                 March <strong>2013</strong> - April <strong>2013</strong>
               </p>
             </div>
@@ -69,25 +88,6 @@ function Experience() {
                   to work with a team and as well as how to use information
                   system software to resolve computer issues within the
                   organization.
-                </p>
-              </blockquote>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col s12 m4 l4 xl4">
-              <p className="teal year_exp white-text">
-                March <strong>2013</strong> - April <strong>2013</strong>
-              </p>
-            </div>
-            <div className="col s12 m8 l8 xl8">
-              <blockquote className="no-pad">
-                <h6 className="no-pad mt-bottom">
-                  <strong>YMCA (IT Technical Support)</strong>
-                </h6>
-                <p>
-                  Configured computer systems, fixing hardware and software.
-                  Operating system installation. Performed routine hardware and
-                  software maintenance checks.
                 </p>
               </blockquote>
             </div>
