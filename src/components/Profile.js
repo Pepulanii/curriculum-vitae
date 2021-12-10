@@ -33,13 +33,13 @@ function Profile() {
             </span>
             <p className="flex-container">
               <a href="https://web.facebook.com/pepulani.ngwira?_rdc=1&_rdr">
-                <i className="fab fa-facebook-f" />
+                <i className="fab fa-facebook-f" style={{ fontSize: 30 }} />
               </a>
               <a href="https://www.twitter.com/Pepulani_">
-                <i className="fab fa-twitter" />
+                <i className="fab fa-twitter" style={{ fontSize: 30 }} />
               </a>
               <a href="https://zm.linkedin.com/in/pepulani-ngwira-b4ab52a6">
-                <i className="fab fa-linkedin-in" />
+                <i className="fab fa-linkedin-in" style={{ fontSize: 30 }} />
               </a>
             </p>
           </div>
