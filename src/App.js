@@ -8,7 +8,7 @@ import 'materialize-css/dist/js/materialize.min.js';
 // import 'bootstrap-css-only/css/bootstrap.min.css';
 // import 'mdbreact/dist/css/mdb.css';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
