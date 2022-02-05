@@ -1,12 +1,12 @@
-import React from 'react';
-import profpic from '../images/profpic.png';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import profpic from "../images/profile-pic.jpg";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faTwitter,
   faLinkedIn,
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
   return (
@@ -23,7 +23,7 @@ function Profile() {
             <p>
               <strong>Systems Developer (SMART Zambia Institute)</strong>
             </p>
-            <p style={{ color: 'blue' }}>
+            <p style={{ color: "blue" }}>
               <i>(click image to view social)</i>
             </p>
           </div>
