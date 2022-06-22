@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/curriculum-vitae/static/css/main.9205f1a0.chunk.css",
-    "main.js": "/curriculum-vitae/static/js/main.bde45fad.chunk.js",
-    "main.js.map": "/curriculum-vitae/static/js/main.bde45fad.chunk.js.map",
+    "main.js": "/curriculum-vitae/static/js/main.940548ff.chunk.js",
+    "main.js.map": "/curriculum-vitae/static/js/main.940548ff.chunk.js.map",
     "runtime-main.js": "/curriculum-vitae/static/js/runtime-main.984f1e56.js",
     "runtime-main.js.map": "/curriculum-vitae/static/js/runtime-main.984f1e56.js.map",
     "static/css/2.b0300f7a.chunk.css": "/curriculum-vitae/static/css/2.b0300f7a.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.b0300f7a.chunk.css",
     "static/js/2.a5a1bb9d.chunk.js",
     "static/css/main.9205f1a0.chunk.css",
-    "static/js/main.bde45fad.chunk.js"
+    "static/js/main.940548ff.chunk.js"
   ]
 }
